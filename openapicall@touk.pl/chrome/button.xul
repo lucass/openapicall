@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="chrome://openapicall/content/button.css"?> 
+
+<!DOCTYPE overlay >
+
+<overlay id="custombutton-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+
+    <script type="application/javascript" src="chrome://openapicall/content/button.js"/> 
+    
+    <toolbarpalette id="AddressBookToolbarPalette"> 
+        <toolbarbutton id="custom-button-1"/> 
+    </toolbarpalette> 
+
+    <toolbarbutton id="custom-button-1" label="Call" tooltiptext="openApi Call" oncommand="CustomButton[1]()" class="toolbarbutton-1 chromeclass-toolbar-additional custombutton" /> 
+
+</overlay>

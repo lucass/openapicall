@@ -1,0 +1,17 @@
+<?xml version="1.0"?>  
+  
+<!DOCTYPE mydialog SYSTEM "chrome://myaddon/locale/mydialog.dtd">  
+  
+<vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">  
+    <setting type="string" pref="extensions.openapicall.number" title="Numer telefonu" desc="Numer twojego telefonu" />  
+    <setting type="string" pref="extensions.openapicall.appcode" title="AppKey" desc="Kod aplikacji" /> 
+    <setting type="menulist" pref="extensions.openapicall.telephonekind" title="Rodzaj numeru telefonicznego odbiorcy" desc="Z którym numerem będziemy zestawiać połączenie">  
+        <menulist>  
+            <menupopup>  
+                <menuitem value="1" label="komórkowy"/>  
+                <menuitem value="2" label="służbowy"/>  
+                <menuitem value="3" label="domowy"/>  
+            </menupopup>  
+        </menulist>  
+    </setting>  
+</vbox>  

@@ -1,0 +1,3 @@
+content openapicall chrome/
+style chrome://global/content/customizeToolbar.xul chrome://openapicall/content/button.css 
+overlay chrome://messenger/content/addressbook/addressbook.xul chrome://openapicall/content/button.xul 
